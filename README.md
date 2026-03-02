@@ -48,26 +48,26 @@ Main components available in the web application:
 
 ## 📂 Project Structure
 
+```
 Pothole-detection-streamlit/
 │
-├── app.py                      # Main Streamlit application
-├── ekspor_model.py             # Model export / utility script
-├── requirements.txt            # Project dependencies
-├── README.md                   # Project documentation
+├── app.py                # Main Streamlit application
+├── ekspor_model.py       # Model export / utility script
+├── requirements.txt      # Project dependencies
+├── README.md             # Project documentation
 │
-├── models/                     # Trained YOLO model
-│   └── best.pt
+├── models/               # Trained YOLO model files
+│   ├── best.pt
 │   └── best.onnx
-|
-├── data/                       # Sample dataset (images)
 │
-├── result/                     # Detection output results
+├── data/                 # Sample dataset (images)
 │
-├── utils/                      # Helper functions
+├── result/               # Detection output results
 │
-└── venv/                       # Virtual environment (not pushed to GitHub)
-
----
+├── utils/                # Helper/helper functions
+│
+└── venv/                 # Virtual environment (not pushed to GitHub)
+```
 
 ## ▶️ How to Run Locally
 
