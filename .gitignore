@@ -11,6 +11,4 @@ result/
 # Large files
 *.mp4
 *.pt
-*.h5
-*.pkl
 *.onnx
