@@ -47,3 +47,23 @@ Main components available in the web application:
 ---
 
 ## 📂 Project Structure
+├── app.py # Main Streamlit application
+├── ekspor_model.py # YOLO model export / helper script
+├── utils/ # Utility and helper functions
+├── README.md
+├── requirements.txt
+├── .gitignore
+
+---
+
+## ▶️ How to Run Locally
+
+### 1️⃣ Clone Repository
+git clone https://github.com/SyahidNK/Pothole-detection-streamlit.git
+cd Pothole-detection-streamlit
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run Streamlit App
+streamlit run app.py q
