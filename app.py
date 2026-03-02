@@ -44,7 +44,7 @@ def load_model(model_path, conf_threshold):
     return YOLODetector(model_path, conf_threshold)
 
 # Load model
-model_path = "weights/best.onnx"
+model_path = "models/best.onnx"
 detector = load_model(model_path, conf_threshold)
 
 def get_video_writer(input_path, output_path, cap):

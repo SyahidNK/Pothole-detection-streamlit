@@ -3,9 +3,7 @@ venv/
 .vscode/
 __pycache__/
 
-# Data & Model
-data/
-models/
+# Hasil Uji
 result/
 
 # Large files
