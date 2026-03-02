@@ -1,0 +1,16 @@
+# Environment
+venv/
+.vscode/
+__pycache__/
+
+# Data & Model
+data/
+models/
+result/
+
+# Large files
+*.mp4
+*.pt
+*.h5
+*.pkl
+*.onnx
