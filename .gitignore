@@ -3,7 +3,7 @@ venv/
 .vscode/
 __pycache__/
 
-# Hasil Uji
+# Test Result
 result/
 
 # Large files
